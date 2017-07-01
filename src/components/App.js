@@ -5,8 +5,6 @@ import Terminal from 'react-bash';
 import {history, structure, extensions, prefix} from './SkamTerm';
 import {s} from '../styles/skamterm.style';
 
-console.log('s ', s)
-
 export default function App() {
   return (
     <Terminal style={s} history={history}
