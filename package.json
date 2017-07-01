@@ -9,16 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "url": "git+https://github.com/skamdart/skamdart.github.io.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Cameron Dart <cdart2@illinois.edu>",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
+    "react-bash": "^1.5.3",
     "react-dom": "^15.5.4",
     "react-interactive": "^0.6.5",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "tinyreq": "^3.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
