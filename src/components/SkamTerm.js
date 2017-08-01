@@ -8,11 +8,14 @@ export const history = [
     { value: 'Greetings!' }
     , { value: 'My name is Cameron Dart' }
     , { value: 'I study Math and CS at the University of Illinois' }
+    , { value: 'Type `resume` to view my resume' }
 ];
 
 export const structure = {
+    internships: {
 
-    research: {
+    }
+    , research: {
 
     }
     , skills : {
@@ -27,6 +30,7 @@ export const extensions = {
         },
     },
     sudo: {
+
     }
 }
 
