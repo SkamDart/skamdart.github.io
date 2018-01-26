@@ -5,7 +5,7 @@ const tinyreq = require('tinyreq');
 const freeGeoIPUrl = `http://freegeoip.net/json/?callback=?`
 
 export const history = [
-    { value: 'Greetings!' }
+      { value: 'Greetings!' }
     , { value: 'My name is Cameron Dart' }
     , { value: 'I study Math and CS at the University of Illinois' }
     , { value: 'Type `resume` to view my resume' }
@@ -18,7 +18,13 @@ export const structure = {
     , research: {
 
     }
-    , skills : {
+    , skills: {
+
+    }
+    , resume: {
+
+    }
+    , work: {
 
     }
 }
@@ -40,7 +46,6 @@ export const getuserIP = () => {
         if (err) {
             return 'localhost';
         }
-        console.log('body ', body)
         //return body.ip;
     });
 }
